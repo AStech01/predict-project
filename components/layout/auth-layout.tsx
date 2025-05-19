@@ -4,11 +4,13 @@ import { ReactNode } from 'react';
 import { motion } from 'framer-motion';
 import { PenIcon as AlienIcon } from 'lucide-react';
 import Image from 'next/image'
+
 interface AuthLayoutProps {
   children: ReactNode;
 }
 
 export default function AuthLayout({ children }: AuthLayoutProps) {
+
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gray-50 dark:bg-gray-950 px-4 py-12">
       <div className="w-full max-w-md mx-auto  space-y-6">
